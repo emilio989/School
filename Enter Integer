@@ -1,0 +1,28 @@
+
+Pukin, Joshua
+12:08 AM (21 minutes ago)
+
+to me
+
+user_num = int(input('Enter integer:\n'))
+print("You entered: " + str(user_num))
+
+sq = user_num*user_num
+print(str(user_num) + " squared is " +str(sq))
+
+# And 4 cubed is 64 !!
+cubed = user_num*user_num*user_num
+print('And '+str(user_num)+ ' cubed is ' +str(cubed) + ' !!')
+
+# Enter another integer:
+# 5
+# 4 + 5 is 9
+# 4 * 5 is 20
+
+user_num2 = int(input('Enter another integer:\n'))
+totalSum = user_num+user_num2
+product = user_num*user_num2
+
+# Final Output
+print(str(user_num)+ " + " + str(user_num2) + " is " + str(totalSum))
+print(str(user_num)+ " * " + str(user_num2) + " is " + str(product))
