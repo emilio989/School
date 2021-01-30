@@ -1,9 +1,3 @@
-
-Pukin, Joshua
-12:08 AM (21 minutes ago)
-
-to me
-
 user_num = int(input('Enter integer:\n'))
 print("You entered: " + str(user_num))
 
