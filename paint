@@ -1,0 +1,8 @@
+wall_area = float(input())
+
+# Assign gallons_paint below
+wall_area = 250
+gall_paint_sqft = 350
+gallons_paint = wall_area / gall_paint_sqft 
+
+print(gallons_paint)
