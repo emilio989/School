@@ -1,0 +1,12 @@
+import math
+
+f0 = float(input())
+r = math.pow(2, (1 / 12))
+
+res1 = f0 * math.pow(r, 0)
+res2 = f0 * math.pow(r, 1)
+res3 = f0 * math.pow(r, 2)
+res4 = f0 * math.pow(r, 3)
+res5 = f0 * math.pow(r, 4)
+
+print('{:.2f} {:.2f} {:.2f} {:.2f} {:.2f}'.format(res1,res2,res3,res4,res5))
