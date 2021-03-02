@@ -1,0 +1,19 @@
+service=input() # this is enter input
+print("Enter desired auto service:") #this prints that statement
+print("You entered: "+service)#this prints the service statememt
+cost=0
+if(service=='Oil change'):#it checks the for oil change
+   cost=35
+elif(service=="Tire rotation"):#it checks for tire rotation
+   cost=19
+elif(service=="Cars wash"):#it checks for car wash
+   cost=7
+else:#if user enters non of them
+   print("Error: Requested service is not recognized")#it prints the error
+if(cost==35):
+   print('Cost of oil change: $'+str(cost))# then print this statment for cost
+elif(cost==19):
+   print('Cost of tire rotation: $'+str(cost))# then print this statment for cost
+elif(cost==7):
+   print("Cost of cars wash: $"+str(cost))# then print this statment for cost
+
