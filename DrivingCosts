@@ -1,0 +1,10 @@
+def CalculateGasCost(mpg, price_per_gallon, miles_driven):
+    total_cost = (miles_driven/mpg) * price_per_gallon
+    return total_cost
+    
+mpg = float(input())
+price_per_gallon = float(input())
+total_cost_20 = CalculateGasCost(mpg, price_per_gallon, 20)
+total_cost_75 = CalculateGasCost(mpg, price_per_gallon, 75)
+total_cost_500 = CalculateGasCost(mpg, price_per_gallon, 500)
+print('{:.2f} {:.2f} {:.2f}'.format(total_cost_20, total_cost_75, total_cost_500))
